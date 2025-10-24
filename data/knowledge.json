@@ -1,0 +1,78 @@
+{
+  "highlights": [
+    {
+      "title": "Volcanoes National Park",
+      "desc": "Home of the mountain gorillas and golden monkeys. Gorilla trekking requires a permit and early booking.",
+      "tips": [
+        "Book permits well in advance.",
+        "Wear waterproof boots and carry a light rain jacket.",
+        "Hire a porter to support local community."
+      ]
+    },
+    {
+      "title": "Kigali Genocide Memorial",
+      "desc": "A powerful and educational memorial about the 1994 Genocide against the Tutsi.",
+      "tips": [
+        "Allow 2–3 hours.",
+        "Dress respectfully and speak quietly.",
+        "Audio guides available."
+      ]
+    },
+    {
+      "title": "Lake Kivu",
+      "desc": "Relaxing lakeside towns (Gisenyi/Rubavu, Kibuye/Karongi) with boat trips and beaches.",
+      "tips": [
+        "Sunset boat rides are magical.",
+        "Try fresh grilled tilapia.",
+        "Bring sunscreen and a hat."
+      ]
+    },
+    {
+      "title": "Nyungwe Forest",
+      "desc": "Ancient rainforest with chimpanzee trekking and a famous canopy walk.",
+      "tips": [
+        "Start treks early for best wildlife.",
+        "Leech socks or high socks recommended in rainy season.",
+        "Carry water and snacks."
+      ]
+    },
+    {
+      "title": "Akagera National Park",
+      "desc": "Savannah park with Big Five safaris and scenic lakes.",
+      "tips": [
+        "Go for sunrise or late afternoon drives.",
+        "A 4x4 is recommended for self-drive.",
+        "Consider a guided night drive."
+      ]
+    }
+  ],
+  "faqs": {
+    "visa": "Most visitors can apply online for an e-Visa. Check official sources for eligibility and latest fees.",
+    "currency": "Rwandan Franc (RWF). Cards are accepted in cities; carry cash for rural areas.",
+    "best_time": "June–September and December–February are generally drier; wildlife viewing is excellent year-round.",
+    "safety": "Rwanda is widely regarded as safe for tourists. As always, use normal travel precautions.",
+    "health": "Consult your doctor for vaccines and malaria prophylaxis. Use insect repellent and drink safe water.",
+    "sim": "Local SIMs (e.g., MTN, Airtel) are inexpensive; bring passport for registration.",
+    "transport": "Reliable intercity buses, private drivers, and car rentals. In Kigali, safe moto-taxis and ride-hailing operate.",
+    "permits": "Gorilla trekking requires a permit; availability is limited and must be booked in advance."
+  },
+  "itineraries": {
+    "1_day_kigali": [
+      "Morning: Kigali Genocide Memorial",
+      "Lunch: Nyamirambo or Kimihurura cafes",
+      "Afternoon: Kimironko Market + Inema Arts Center",
+      "Evening: Sundowners with city views"
+    ],
+    "3_days_adventure": [
+      "Day 1: Kigali city tour + drive to Musanze",
+      "Day 2: Gorilla trekking (or golden monkeys) in Volcanoes NP",
+      "Day 3: Lake Kivu relaxation (Rubavu) + return to Kigali"
+    ],
+    "7_days_grand": [
+      "Day 1: Kigali culture tour",
+      "Day 2-3: Volcanoes NP (gorillas/monkeys)",
+      "Day 4-5: Lake Kivu (Karongi)",
+      "Day 6-7: Nyungwe canopy walk + chimp trek, return to Kigali"
+    ]
+  }
+}

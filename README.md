@@ -1,45 +1,38 @@
-# rwanda_travel_ai_flask
 
+# Rwanda Travel Guide AI (Flask + Tailwind)
 
-# 🇷🇼 Rwanda Travel AI (Flask)
+A complete starter app for a Rwanda tourism assistant with:
+- Flask backend
+- Interactive chat UI (TailwindCSS via CDN)
+- Icons (inline SVG) and local placeholder images (SVG)
+- Lightweight rule-based AI with optional Transformers fallback
 
-**Rwanda Travel AI** is an intelligent travel assistant built using **Flask**, designed to help users explore Rwanda through smart recommendations, destinations, and travel insights powered by **AI and Machine Learning**.
+## Quick Start
 
----
-
-## 🧠 Overview
-
-This project leverages **AI models** and **Flask web framework** to deliver personalized travel experiences.  
-It can recommend destinations, suggest activities, and help plan trips across Rwanda’s beautiful attractions.
-
----
-
-## ⚙️ Tech Stack
-
-- 🐍 **Python 3.x**
-- 🌐 **Flask** – Web framework
-- 🤖 **Machine Learning / AI** – for travel recommendations
-- 🧠 **OpenAI / Hugging Face / scikit-learn** *(depending on your model)*
-- 🗺️ **HTML, CSS, JS** – Frontend templates
-- 🗃️ **SQLite / MySQL** – Database for destinations and users
-- ☁️ **REST API / JSON** – Data exchange
-
----
-
-## 🚀 Features
-
-✅ AI-powered travel recommendations  
-✅ Explore Rwanda’s destinations, parks, and cultural sites  
-✅ Flask-based backend and API endpoints  
-✅ Dynamic web UI with HTML + CSS + JS  
-✅ Integration-ready with ML models  
-✅ Scalable and modular structure  
-
----
-
-## 🧰 Installation & Setup
-
-### 1️⃣ Clone the Repository
+1) Create & activate a virtual environment
 ```bash
-git clone https://github.com/<your-username>/rwanda_travel_ai_flask.git
-cd rwanda_travel_ai_flask
+python -m venv .venv
+source .venv/bin/activate  # Windows: .venv\Scripts\activate
+```
+
+2) Install dependencies
+```bash
+pip install -r requirements.txt
+```
+
+3) Run the app
+```bash
+python app.py
+```
+
+4) Open http://127.0.0.1:5000 in your browser.
+
+> Note: The app works out of the box using the built-in rule-based responder.
+> If `transformers` + `torch` are installed and a model can be downloaded, it will use DialoGPT-small automatically.
+> Set `CHAT_MODEL` env var to switch models. For production, also set `FLASK_SECRET_KEY`.
+
+## Customize
+
+- Edit `data/knowledge.json` for highlights, FAQs, and itineraries.
+- Modify `templates/index.html` and `static/js/app.js` for UI changes.
+- Extend `app.py` to integrate a hosted LLM API (e.g., OpenAI, together, or local models).
